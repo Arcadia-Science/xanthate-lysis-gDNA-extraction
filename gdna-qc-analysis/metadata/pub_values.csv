@@ -4,6 +4,7 @@ hf_pct10_cs,Observed performance / High-fidelity track; Fig 2B,hf_track,C. smith
 hf_avg_cr,Observed performance / High-fidelity track; Fig 2C,hf_track,C. reinhardtii,,tapestation,avg_size_kb,,mean_sd,0,105 ± 21
 hf_avg_cs,Observed performance / High-fidelity track; Fig 2C,hf_track,C. smithii,,tapestation,avg_size_kb,,mean_sd,0,68 ± 19
 hf_avg_range,Observed performance / High-fidelity track (every fraction above 50 kb),hf_track,,,tapestation,avg_size_kb,,range,0,51–129
+hf_gt_ladder_range,Observed performance / High-fidelity track (share of signal above the 48.5 kb top ladder band),hf_track,,,tapestation,pct_gt_ladder,,range,0,31–73
 hf_n_cr,Figure 2 legend (n = 6 per species),hf_track,C. reinhardtii,,tapestation,avg_size_kb,,n,0,6
 hf_n_cs,Figure 2 legend (n = 6 per species),hf_track,C. smithii,,tapestation,avg_size_kb,,n,0,6
 hf_qubit_cr,Observed performance / High-fidelity track; Fig 2E,hf_track,C. reinhardtii,,nanodrop_qubit,qubit_dsdna,,mean_sd,0,76 ± 20
@@ -16,7 +17,7 @@ ht_avg_rf,Observed performance / High-throughput track; Fig 3C,ht_track,RNA-free
 ht_avg_ss,Observed performance / High-throughput track; Fig 3C,ht_track,Single-SPRI,,tapestation,avg_size_kb,,mean_sd,0,25 ± 7
 ht_hsd_70_rf,Observed performance / High-throughput track (HS D5000 70–150 bp),ht_track,RNA-free,,hsd5000,pct_70_150,,mean_sd,1,0.2 ± 0.2
 ht_hsd_70_ss,Observed performance / High-throughput track (HS D5000 70–150 bp),ht_track,Single-SPRI,,hsd5000,pct_70_150,,mean_sd,1,0.9 ± 0.5
-ht_hsd_60_rf,Observed performance / High-throughput track (HS D5000 60–400 bp),ht_track,RNA-free,,hsd5000,pct_60_400,,mean_sd,1,3.5 ± 3.3
+ht_hsd_60_rf,Observed performance / High-throughput track (HS D5000 60–400 bp),ht_track,RNA-free,,hsd5000,pct_60_400,,mean_sd,1,3.4 ± 3.2
 ht_hsd_60_ss,Observed performance / High-throughput track (HS D5000 60–400 bp),ht_track,Single-SPRI,,hsd5000,pct_60_400,,mean_sd,1,5.8 ± 2.3
 ht_rna_ss,Observed performance / High-throughput track; Fig 3F,ht_track,Single-SPRI,,nanodrop_qubit,qubit_rna,,mean_sd,0,141 ± 26
 ht_rna_rf_below,Observed performance / High-throughput track (at or below detection limit),ht_track,RNA-free,,nanodrop_qubit,qubit_rna,,count_below,0,11 of 12
@@ -32,7 +33,7 @@ opt_hand_before_n,Optimization notes (gentle handling); Fig 4A,opt_handling,Befo
 opt_hand_after,Optimization notes (gentle handling); Fig 4A,opt_handling,After,,tapestation,avg_size_kb,,range,0,25–65
 opt_hand_after_n,Optimization notes (gentle handling); Fig 4A,opt_handling,After,,tapestation,avg_size_kb,,n,0,6
 opt_tc_0,Optimization notes (lysis time course at 0 min); Fig 4B,opt_timecourse,0,,tapestation,avg_size_kb,,range,1,4.5–4.6
-opt_tc_40,Optimization notes (didn't worsen through 40 minutes); Fig 4B,opt_timecourse,40,,tapestation,avg_size_kb,,range,1,
+opt_tc_40,Optimization notes (didn't worsen through 40 min); Fig 4B,opt_timecourse,40,,tapestation,avg_size_kb,,range,1,
 opt_tc_n,Figure 4 legend B (n = 2 per time point),opt_timecourse,0,,tapestation,avg_size_kb,,n,0,2
 opt_ht_hot_pct,Optimization notes (HT matched 10-minute lysis); Fig 4C,opt_thaw_ht,Hot dry,,tapestation,pct_ge_10kb,,range,1,3.0–4.0
 opt_ht_hot_n,Optimization notes (HT matched 10-minute lysis); Fig 4C,opt_thaw_ht,Hot dry,,tapestation,pct_ge_10kb,,n,0,2

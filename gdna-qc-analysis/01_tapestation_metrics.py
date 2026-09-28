@@ -12,6 +12,8 @@ the size scale):
 
   avg_size_kb      fluorescence-weighted mean fragment size
   pct_ge_10kb      percentage of that signal at or above 10 kb
+  pct_gt_ladder    percentage of that signal above the ladder's top band
+                   (48.5 kb), i.e. signal sized only by extrapolation
 
 and, for the lower-marker comparison (03):
 
@@ -62,6 +64,7 @@ def main():
         rows.append(dict(sample_id=sid, prep=s["prep"], run=s["tapestation_file"],
                          well=s["tapestation_well"], description=s["tapestation_desc"],
                          avg_size_kb=q.avg_size_kb(bp, fu), pct_ge_10kb=q.pct_ge(bp, fu),
+                         pct_gt_ladder=q.pct_ge(bp, fu, cutoff=q.GDNA_LADDER[-1]),
                          signal_ge_10kb=hmw, lower_marker=lm, ge10kb_per_lower_marker=hmw / lm))
 
     res = pd.DataFrame(rows)

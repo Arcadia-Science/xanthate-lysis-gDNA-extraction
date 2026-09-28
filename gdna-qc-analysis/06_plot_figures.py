@@ -239,10 +239,10 @@ def figure4(ctx):
     title(ax, "Hot dry thaw (HT)", "B")
 
     for k, (set_, m, lab, tt) in enumerate((
-            ("opt_thaw_ht", "pct_ge_10kb", "DNA ≥10 kb (%)", "HT, 10 min"),
-            ("opt_thaw_ht", "avg_size_kb", "Average size (kb)", "HT, 10 min"),
             ("opt_thaw_hf", "pct_ge_10kb", "DNA ≥10 kb (%)", "HF"),
-            ("opt_thaw_hf", "avg_size_kb", "Average size (kb)", "HF"))):
+            ("opt_thaw_hf", "avg_size_kb", "Average size (kb)", "HF"),
+            ("opt_thaw_ht", "pct_ge_10kb", "DNA ≥10 kb (%)", "HT, 10 min"),
+            ("opt_thaw_ht", "avg_size_kb", "Average size (kb)", "HT, 10 min"))):
         ax = fig.add_subplot(gs[0, 2 + k])
         points(ax, [(g.replace(" ", "\n"), ctx.ts.loc[ctx.ids(set_, g), m], C["aegean"])
                     for g in ("Hot dry", "Cold wet")], lab)

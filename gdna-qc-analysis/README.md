@@ -15,8 +15,9 @@ DIN, calibrated concentrations) is used.
   its run's ladder (14 bands, 100 bp–48.5 kb; PCHIP in log10(size), linear in
   log10(size) beyond the end bands) and compute average DNA size and the
   percentage of DNA at or above 10 kb from signal between 400 bp and 1 Mb.
-  Also integrates each lane's signal at or above 10 kb and its 100 bp lower
-  marker (50–150 bp).
+  Also reports the percentage of that signal above the ladder's top band
+  (48.5 kb), which is sized by extrapolation alone, and integrates each lane's
+  signal at or above 10 kb and its 100 bp lower marker (50–150 bp).
 - `02_hsd5000_low_mw.py` — High Sensitivity D5000 check that nothing is hidden
   under the Genomic DNA ScreenTape's lower marker: share of lane signal,
   excluding both HS D5000 markers (below 60 bp; 9–11 kb), at 70–150 bp and
