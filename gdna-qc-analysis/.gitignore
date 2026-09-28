@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc.*
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+env/
+venv/
+.venv/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Raw data (download from Zenodo) and regenerable outputs
+data/
+gDNA_extractions/
+results/
+figures/

@@ -1,0 +1,17 @@
+# Python dependencies (pip install -r requirements.txt)
+pysam>=0.22
+pandas>=2.0
+numpy
+biopython>=1.83
+primer3-py>=2.0
+
+# Command-line tools (install separately, e.g. via conda):
+#   minimap2  (tested: 2.31)
+#   samtools  (tested: 1.22.1)
+#   mafft     (tested: 7.526)
+#   blast     (tested: 2.16.0+; blastn + makeblastdb)
+# Design phase only (design/ scripts):
+#   bwa       (tested: 0.7.19-r1273)
+#   mosdepth  (tested: 0.3.14)
+#   bcftools  (tested: 1.22)
+#   curl      (ENA FASTQ downloads)

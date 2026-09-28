@@ -1,0 +1,8 @@
+# Python dependencies (pip install -r requirements.txt)
+# Tested with Python 3.11, numpy 2.4.4, pandas 3.0.2, scipy 1.17.1,
+# matplotlib 3.10.9, arcadia-pycolor 0.8.0.
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+matplotlib>=3.8
+arcadia-pycolor>=0.7    # house plotting style for 06; plots fall back to plain matplotlib without it

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc.*
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+env/
+venv/
+.venv/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Pipeline outputs (regenerable; large)
+reference/
+workdir/
+bams/
+fastqs/
+fastas/
+results/
+amplicon_genbank/
+deletions_CC1373.csv
+primers.tsv
+organellar_primers.tsv
