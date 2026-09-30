@@ -61,7 +61,7 @@ Sample selection, recorded per row in `samples.csv` (`exclude_reason`):
 
 ## Data
 
-Raw QC data are on Zenodo (DOI ___). The archive mirrors the lab's
+Raw QC data are on Zenodo ([DOI: 10.5281/zenodo.23051267](https://doi.org/10.5281/zenodo.23051267)). The archive mirrors the lab's
 `gDNA_extractions/` folder: one `<prep>_<date>/` folder per preparation with
 its TapeStation, NanoDrop and Qubit exports. Files are found by name anywhere
 under their preparation folder, so sub-folder names don't matter.

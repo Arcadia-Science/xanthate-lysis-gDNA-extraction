@@ -7,7 +7,7 @@ Analysis accompanying the forthcoming Arcadia Science pub “A high-throughput m
 - [`gdna-qc-analysis/`](gdna-qc-analysis/) — TapeStation, NanoDrop, and Qubit quality control, summary statistics, and figure panels.
 - [`amplicon-seq-analysis/`](amplicon-seq-analysis/) — CC-124 vs CC-1373 amplicon strain-typing design and analysis.
 
-Raw instrument exports and sequencing reads are deposited separately. Each directory has its own README with requirements and how to run the scripts.
+Raw QC data (TapeStation, NanoDrop, and Qubit) are on [Zenodo](https://doi.org/10.5281/zenodo.23051267) (DOI: 10.5281/zenodo.23051267). Sequencing reads are deposited separately. Each directory has its own README with requirements and how to run the scripts.
 
 ## License
 
