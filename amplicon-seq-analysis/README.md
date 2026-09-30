@@ -98,7 +98,7 @@ python design/05_make_amplicon_genbank.py --reference reference/combined_referen
 ## Data availability
 
 - Raw QC data (NanoDrop, Qubit, TapeStation): [Zenodo](https://doi.org/10.5281/zenodo.23051267) (DOI: 10.5281/zenodo.23051267).
-- Amplicon sequencing reads/consensuses (order AI-8632): ___ .
+- Amplicon sequencing reads/consensuses (order AI-8632): same Zenodo DOI, under `xanthate_gDNA_zenodo/strain_typing/amplicon_sequencing_AI-8632/`.
 - Protocols: protocols.io (see pub).
 
 ## License
