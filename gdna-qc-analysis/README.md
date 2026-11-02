@@ -1,8 +1,8 @@
 # Genomic DNA QC analysis: TapeStation, NanoDrop and Qubit
 
 Code for the quality-control analysis and figure data panels in "A
-high-throughput method for genomic DNA extraction from Chlamydomonas"
-(xanthate lysis pub). Every number is computed from raw instrument exports:
+high-throughput method for genomic DNA extraction from Chlamydomonas". 
+Every number is computed from raw instrument exports:
 TapeStation electropherogram traces sized against each run's own ladder,
 NanoDrop spectra, and Qubit readings. No vendor-computed metric (peak tables,
 DIN, calibrated concentrations) is used.
@@ -41,7 +41,7 @@ DIN, calibrated concentrations) is used.
 
 | Set (`sets.csv`) | Figure panels | Preparation(s) | Groups |
 |---|---|---|---|
-| `hf_track` | Fig 2 A–F | HF-8 | *C. reinhardtii* CC-124, *C. smithii* CC-1373 (n = 6 each) |
+| `hf_track` | Fig 2 A–G | HF-8 | *C. reinhardtii* CC-124, *C. smithii* CC-1373 (n = 6 each) |
 | `ht_track` | Fig 3 A–G | HT-12 | "RNA-free" (row D), "Single-SPRI" (row H), n = 12 each |
 | `opt_handling` | Fig 4A | HF-1 (before), HF-3 (after) | n = 4, 6 |
 | `opt_timecourse` | Fig 4B | HT-6 | 0, 1, 5, 10, 20, 40 min lysis; CC-124, n = 2 each |
