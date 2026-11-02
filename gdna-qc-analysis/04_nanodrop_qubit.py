@@ -18,7 +18,7 @@ It also writes each sample's spectrum (220–320 nm), divided by its own
 absorbance at 260 nm, to nanodrop_spectra_normalized.csv (unsmoothed; the
 plotting script applies a 9-point display smoothing).
 
-Feeds Figure 2 D–F, Figure 3 D–G and Figure 4D.
+Feeds Figure 2 D–G, Figure 3 D–G and Figure 4D.
 
 Requires: numpy, pandas (see requirements.txt).
 
