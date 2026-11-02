@@ -8,7 +8,7 @@ labelled in Adobe Illustrator from panels like these, so spacing, titles and
 annotations differ; the plotted values are the same.
 
   Figure 2 (high-fidelity track)   A traces, B % ≥10 kb, C average size,
-                                   D NanoDrop spectra, E Qubit, F NanoDrop:Qubit
+                                   D NanoDrop spectra, E Qubit, G NanoDrop:Qubit
   Figure 3 (high-throughput track) A traces, B % ≥10 kb, C average size,
                                    D NanoDrop spectra, E Qubit dsDNA,
                                    F Qubit RNA, G NanoDrop:Qubit
