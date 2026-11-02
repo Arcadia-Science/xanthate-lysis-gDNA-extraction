@@ -2,7 +2,7 @@
 
 Code for the species-typing marker design and amplicon-sequencing analysis
 described in "A high-throughput method for genomic DNA extraction from
-Chlamydomonas" (xanthate lysis pub). The validated three-marker panel:
+Chlamydomonas". The validated three-marker panel:
 
 | Marker | Locus | CC-124 product | CC-1373 product | Distinguishes by |
 |---|---|---|---|---|
@@ -97,8 +97,8 @@ python design/05_make_amplicon_genbank.py --reference reference/combined_referen
 
 ## Data availability
 
-- Raw QC data (NanoDrop, Qubit, TapeStation): [Zenodo](https://doi.org/10.5281/zenodo.23051267) (DOI: 10.5281/zenodo.23051267).
-- Amplicon sequencing reads/consensuses (order AI-8632): same Zenodo DOI, under `xanthate_gDNA_zenodo/strain_typing/amplicon_sequencing_AI-8632/`.
+- Raw QC data (NanoDrop, Qubit, TapeStation): [Zenodo](https://doi.org/10.5281/zenodo.23811781) (DOI: 10.5281/zenodo.23811781).
+- Amplicon sequencing reads/consensuses (order AI-8632): same Zenodo DOI, under `xanthate_gDNA_2_zenodo/strain_typing/amplicon_sequencing_AI-8632/`.
 - Protocols: protocols.io (see pub).
 
 ## License
